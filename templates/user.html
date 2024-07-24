@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home page{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Moien, {{ name }}</h5>
+            <ul class="list-group">
+                <li class="list-group-item">Filter capitalize {{ name|capitalize }}</li>
+                <li class="list-group-item">Filter title {{ name|title }}</li>
+                <li class="list-group-item"><i class="bi bi-alarm"></i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<img src="{{ url_for('static', filename='logo.jpg') }}" alt="logo.jpg" class="img-fluid round" />
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{% endblock %}

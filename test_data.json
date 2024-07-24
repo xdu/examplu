@@ -1,0 +1,3335 @@
+{
+  "entry": {
+    "lod_id": "SOEN1",
+    "partOfSpeech": "VRB",
+    "partOfSpeechLabel": "VRB",
+    "lemma": "soen",
+    "nRuleForm": "soe",
+    "trademark": false,
+    "ipa": "",
+    "tables": {
+      "verbConjugation": {
+        "@attributes": {
+          "id": "SOEN1",
+          "model": "SOEN1",
+          "separableVerb": "no"
+        },
+        "infinitive": "soen",
+        "pastParticiple": "gesot",
+        "auxiliaryVerb": "hunn",
+        "indicative": {
+          "present": {
+            "p1": "soen",
+            "p2": "sees",
+            "p3": "seet",
+            "p4": "soen",
+            "p5": "sot",
+            "p6": "soen"
+          },
+          "pastSimple": {
+            "p1": "sot",
+            "p2": "sos",
+            "p3": "sot",
+            "p4": "soten",
+            "p5": "sot",
+            "p6": "soten"
+          },
+          "presentPerfect": {
+            "p1": "hu gesot",
+            "p2": "hues gesot",
+            "p3": "huet gesot",
+            "p4": "hu gesot",
+            "p5": "hutt gesot",
+            "p6": "hu gesot"
+          },
+          "pastPerfect": {
+            "p1": "hat gesot",
+            "p2": "has gesot",
+            "p3": "hat gesot",
+            "p4": "hate gesot",
+            "p5": "hat gesot",
+            "p6": "hate gesot"
+          }
+        },
+        "conditional": {
+          "presentPerfect": {
+            "p1": "géif / géing soen",
+            "p2": "géifs / géings soen",
+            "p3": "géif / géing soen",
+            "p4": "géifen / géinge soen",
+            "p5": "géift / géingt soen",
+            "p6": "géifen / géinge soen"
+          },
+          "pastPerfect": {
+            "p1": "hätt gesot",
+            "p2": "häss gesot",
+            "p3": "hätt gesot",
+            "p4": "hätte gesot",
+            "p5": "hätt gesot",
+            "p6": "hätte gesot"
+          }
+        },
+        "imperative": {
+          "present": {
+            "p2": "so!",
+            "p5": "sot!"
+          }
+        }
+      }
+    },
+    "microStructures": [
+      {
+        "partOfSpeech": "VRB",
+        "partOfSpeechLabel": "VRB",
+        "auxiliaryVerb": "hunn",
+        "pastParticiple": [
+          "gesot"
+        ],
+        "grammaticalUnits": [
+          {
+            "grammaticalInformation": [
+              "transitiv"
+            ],
+            "meanings": [
+              {
+                "meaningID": "SOEN1UNI1",
+                "number": 1,
+                "meaningVideo": "441026032",
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "aussprechen, artikulieren"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "prononcer, articuler"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to say"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to pronounce, to articulate"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dizer"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "pronunciar, articular"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "eist"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Klengt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ka"
+                          },
+                          {
+                            "type": "word",
+                            "content": "schonn"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ganz"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Partie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Wierder"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/f2/f2469768c8c9982341d52ce46a3b3492.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/f2/f2469768c8c9982341d52ce46a3b3492.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hunn"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "däitlech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "héieren,"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Wuert"
+                          },
+                          {
+                            "type": "word",
+                            "content": "nach"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Kéier!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/a2/a2b6f2894ede99fd935ea93192bd53b0.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/a2/a2b6f2894ede99fd935ea93192bd53b0.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gëtt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Leit,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "déi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "kënnen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "den"
+                          },
+                          {
+                            "type": "word",
+                            "content": "'s'"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "richteg"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/41/41df510dca90f54ec5424374ef4ed7fe.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/41/41df510dca90f54ec5424374ef4ed7fe.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI2",
+                "number": 2,
+                "meaningVideo": "441026108",
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "zum Ausdruck bringen, äußern"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "exprimer, formuler"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to say"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to express"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dizer"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "exprimir, formular"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "jidderee"
+                          },
+                          {
+                            "type": "word",
+                            "content": "soll"
+                          },
+                          {
+                            "type": "word",
+                            "content": "d'"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Méiglechkeet",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "kréien,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "seng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Meenung"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/08/088c8e276c563b9a9f68bb00f339936d.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/08/088c8e276c563b9a9f68bb00f339936d.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ëmmer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "riichteraus,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "en"
+                          },
+                          {
+                            "type": "word",
+                            "content": "denkt"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/76/7673ab16972a72bc62e3a3c61a2c5b76.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/76/7673ab16972a72bc62e3a3c61a2c5b76.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Iddi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "haart,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "se"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gutt!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/b8/b87279c2aacfa5f42534b7a3a08c970a.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/b8/b87279c2aacfa5f42534b7a3a08c970a.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "esou"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eppes"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "een"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/a3/a354bf5e822dc7e88a722e11146188b8.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/a3/a354bf5e822dc7e88a722e11146188b8.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "méi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "einfach"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ewéi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gemaach"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "einfach"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "realiséieren"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/9e/9e6764368c617a77f32616ea03e42d03.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/9e/9e6764368c617a77f32616ea03e42d03.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hien"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "huet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vill"
+                          },
+                          {
+                            "type": "word",
+                            "content": "geschwat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "hien"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "huet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "nëmmen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "onwichteg"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Saache"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/e5/e5f47f0242d9c4250b36995b7aaac5c1.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/e5/e5f47f0242d9c4250b36995b7aaac5c1.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "muss"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vun"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "geduecht"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "muss"
+                          },
+                          {
+                            "type": "word",
+                            "content": "zouginn,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vun"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "geduecht"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/9f/9f233f5dd5305ea0a167adaa7b8261a8.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/9f/9f233f5dd5305ea0a167adaa7b8261a8.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "kann"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "nee"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "wann"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gär"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eppes"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vu"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "bréngen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "fäerdeg,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "seng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Demande"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "refuséieren,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wann"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gär"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eppes"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vu"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/8b/8b1a8d0fc1be68bb7807a7c4dadcd092.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/8b/8b1a8d0fc1be68bb7807a7c4dadcd092.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI15",
+                "number": 3,
+                "secondaryHeadword": "so (emol) / sot (emol)",
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sag mal"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "sagt mal"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "sagen Sie mal"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dis (donc)"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "dites (donc)"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": []
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "diz lá"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "diga lá"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "haut"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Feierdag"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Däitschland?"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/2f/2f680f95ace8159282f98e875d3d6ec1.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/2f/2f680f95ace8159282f98e875d3d6ec1.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "sot"
+                          },
+                          {
+                            "type": "word",
+                            "content": "emol,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "däerf"
+                          },
+                          {
+                            "type": "word",
+                            "content": "een"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hei"
+                          },
+                          {
+                            "type": "word",
+                            "content": "parken?"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/71/713d540ba35b256af166d70804bdb7a8.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/71/713d540ba35b256af166d70804bdb7a8.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI3",
+                "number": 4,
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "mitteilen"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire à"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "faire part à"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to tell"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to inform (of)"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dizer a"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "comunicar a"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Guide"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "huet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "senger"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Reesgrupp"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "datt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Bus"
+                          },
+                          {
+                            "type": "word",
+                            "content": "pénktlech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "fortfiert"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/98/98961f9a6ff73e79d0f8868177a1f5ca.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/98/98961f9a6ff73e79d0f8868177a1f5ca.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "hien"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "e"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gudde"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Frënd,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deem"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "alles"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ka"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/f0/f0fb5351992722a1879126d96f8d020e.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/f0/f0fb5351992722a1879126d96f8d020e.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dem"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Garçon,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "datt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Zopp"
+                          },
+                          {
+                            "type": "word",
+                            "content": "kal"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/e6/e6ea6aa93bf0d5d23a562034f9306066.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/e6/e6ea6aa93bf0d5d23a562034f9306066.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hu"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soe"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gelooss,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "du"
+                          },
+                          {
+                            "type": "word",
+                            "content": "häss"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Pensioun"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ugefrot"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "si"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gewuer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ginn,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "datt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Pensioun"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ugefrot"
+                          },
+                          {
+                            "type": "word",
+                            "content": "häss"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/b2/b2bf3a20a64198e4585e28ac2f608b0f.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/b2/b2bf3a20a64198e4585e28ac2f608b0f.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "hunn"
+                          },
+                          {
+                            "type": "word",
+                            "content": "him"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gutt"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hunn"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gutt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "vernannt"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/3f/3f5f3d7efe50cb35c51c84ee6c310ace.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/3f/3f5f3d7efe50cb35c51c84ee6c310ace.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "him"
+                          },
+                          {
+                            "type": "word",
+                            "content": "muss"
+                          },
+                          {
+                            "type": "word",
+                            "content": "een"
+                          },
+                          {
+                            "type": "word",
+                            "content": "alles"
+                          },
+                          {
+                            "type": "word",
+                            "content": "honnertmol"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "versteet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "séier"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "hie"
+                          },
+                          {
+                            "type": "word",
+                            "content": "lauschtert"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "opmierksam"
+                          },
+                          {
+                            "type": "word",
+                            "content": "no"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/25/25442b25f6692fa00e313c915f2535da.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/25/25442b25f6692fa00e313c915f2535da.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "loossen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "zweemol"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "maachen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gär"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "direkt!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/21/21aebca18e6f2e66d425c2dd3a9a5ac3.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/21/21aebca18e6f2e66d425c2dd3a9a5ac3.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wiem"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "sees"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et!"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "brauchs"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net!"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "dat,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "sees,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "weess"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "scho"
+                          },
+                          {
+                            "type": "word",
+                            "content": "laang"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/54/54423a453860fcc69ba1fcde126670a0.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/54/54423a453860fcc69ba1fcde126670a0.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI6",
+                "number": 5,
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "behaupten"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "prétendre, affirmer"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to say"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to claim, to assert"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dizer"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "pretender, afirmar"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gëtt gesot"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "du"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wiers"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Stad"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "engem"
+                          },
+                          {
+                            "type": "word",
+                            "content": "frieme"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Framënsch"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gesi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ginn"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/d8/d89bfa13cf520ce05855fe1cfe6cb4a3.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/d8/d89bfa13cf520ce05855fe1cfe6cb4a3.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ka"
+                          },
+                          {
+                            "type": "word",
+                            "content": "beweisen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/45/45684fd06b6da31e8f38b8a616c30217.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/45/45684fd06b6da31e8f38b8a616c30217.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gehollef!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/36/369280d8c16c412bd67020e3e35a604a.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/36/369280d8c16c412bd67020e3e35a604a.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "sees"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "dat,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "sees"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "bal"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gleewen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/23/230b6e872ba995cebe83dd1afb68b13b.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/23/230b6e872ba995cebe83dd1afb68b13b.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "attribute",
+                            "content": "EGS"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "waren,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "looss(e)"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "150"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Leit"
+                          },
+                          {
+                            "type": "word",
+                            "content": "um"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Fest"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "waren"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ongeféier"
+                          },
+                          {
+                            "type": "word",
+                            "content": "150"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Leit"
+                          },
+                          {
+                            "type": "word",
+                            "content": "um"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Fest"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/c6/c64e9e16e973faf2e9509498b48ee34a.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/c6/c64e9e16e973faf2e9509498b48ee34a.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gesot!"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "du"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wäerts"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gesinn,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "datt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "esou"
+                          },
+                          {
+                            "type": "word",
+                            "content": "geet,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wéi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "soen"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/a5/a5bdb72d99ef1f8c0efcf8e891852ad4.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/a5/a5bdb72d99ef1f8c0efcf8e891852ad4.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "so"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gesot!"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "behaapt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hätt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dech"
+                          },
+                          {
+                            "type": "word",
+                            "content": "net"
+                          },
+                          {
+                            "type": "word",
+                            "content": "gewarnt!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/b9/b972898e81010576bfe79d4b280204af.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/b9/b972898e81010576bfe79d4b280204af.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI7",
+                "number": 6,
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "raten, befehlen"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire à"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "recommander à, ordonner à"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to tell"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to recommend, to order"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dizer a"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "recomendar a, ordenar a"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "ech"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "hat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "iech"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "gesot"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "dir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "misst"
+                          },
+                          {
+                            "type": "word",
+                            "content": "virun"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Hallefnuecht"
+                          },
+                          {
+                            "type": "word",
+                            "content": "heiheem"
+                          },
+                          {
+                            "type": "word",
+                            "content": "sinn"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/0b/0b8b89ce675bc28f1372f2a6225ac136.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/0b/0b8b89ce675bc28f1372f2a6225ac136.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "du"
+                          },
+                          {
+                            "type": "word",
+                            "content": "léiss"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "awer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "och"
+                          },
+                          {
+                            "type": "word",
+                            "content": "guer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/b2/b2e609ef9bf6a4deb8a13a43193fff25.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/b2/b2e609ef9bf6a4deb8a13a43193fff25.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "du"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hues"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "maachen,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "d'"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Cheffin",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/08/08c66e9825eeb832723e734345c864b2.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/08/08c66e9825eeb832723e734345c864b2.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "deen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "huet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "!",
+                            "joinWithPreviousWord": true
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/bf/bfc272cc37225a3dc419357e59a778c2.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/bf/bfc272cc37225a3dc419357e59a778c2.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI8",
+                "number": 7,
+                "secondaryHeadword": "eppes soen",
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "etwas sagen"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "etwas bedeuten"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "vouloir dire quelque chose"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "signifier quelque chose"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to say something"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "to mean something"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "querer dizer alguma coisa"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "significar alguma coisa"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "datt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hien"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "där"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Saach"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Mond"
+                          },
+                          {
+                            "type": "word",
+                            "content": "hält,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "genuch!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/b3/b3084d231abad0fd0cb1adee507d73f4.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/b3/b3084d231abad0fd0cb1adee507d73f4.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "deen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Numm"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eppes"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "deen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Numm"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ass"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "iergendwéi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "bekannt"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/a8/a82558801290997f6af10f01226ab135.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/a8/a82558801290997f6af10f01226ab135.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "huet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "wann"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "e"
+                          },
+                          {
+                            "type": "word",
+                            "content": "bëssen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "spéit"
+                          },
+                          {
+                            "type": "word",
+                            "content": "kënns"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "gloss",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "et"
+                          },
+                          {
+                            "type": "word",
+                            "content": "deet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "wann"
+                          },
+                          {
+                            "type": "word",
+                            "content": "s"
+                          },
+                          {
+                            "type": "word",
+                            "content": "de"
+                          },
+                          {
+                            "type": "word",
+                            "content": "e"
+                          },
+                          {
+                            "type": "word",
+                            "content": "bëssen"
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "spéit"
+                          },
+                          {
+                            "type": "word",
+                            "content": "kënns"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/4d/4d855d6a81f301dad34e37311917f18d.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/4d/4d855d6a81f301dad34e37311917f18d.m4a"
+                    }
+                  }
+                ]
+              },
+              {
+                "meaningID": "SOEN1UNI4",
+                "number": 8,
+                "secondaryHeadword": "eppes soen",
+                "targetLanguages": {
+                  "de": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "zusagen"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "gefallen"
+                      }
+                    ]
+                  },
+                  "fr": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "dire à"
+                      },
+                      {
+                        "type": "semanticClarifier",
+                        "content": "convenir à, plaire à"
+                      }
+                    ]
+                  },
+                  "en": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "to fancy"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "to appeal to"
+                      }
+                    ]
+                  },
+                  "pt": {
+                    "parts": [
+                      {
+                        "type": "translation",
+                        "content": "apetecer a"
+                      },
+                      {
+                        "type": "translation",
+                        "content": "agradar a"
+                      }
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "géif"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "der"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eppes"
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "soen"
+                          },
+                          {
+                            "type": "word",
+                            "content": ",",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "fir"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mat"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eis"
+                          },
+                          {
+                            "type": "word",
+                            "content": "an"
+                          },
+                          {
+                            "type": "word",
+                            "content": "d'"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Vakanz",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "word",
+                            "content": "ze"
+                          },
+                          {
+                            "type": "word",
+                            "content": "fueren?"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/f4/f4e10095a661e62edc7b03449524b83f.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/f4/f4e10095a661e62edc7b03449524b83f.m4a"
+                    }
+                  },
+                  {
+                    "parts": [
+                      {
+                        "type": "text",
+                        "parts": [
+                          {
+                            "type": "word",
+                            "content": "d'"
+                          },
+                          {
+                            "type": "word",
+                            "content": "Fest",
+                            "joinWithPreviousWord": true
+                          },
+                          {
+                            "type": "inflectedHeadword",
+                            "content": "seet"
+                          },
+                          {
+                            "type": "word",
+                            "content": "mer"
+                          },
+                          {
+                            "type": "word",
+                            "content": "näischt,"
+                          },
+                          {
+                            "type": "word",
+                            "content": "géi"
+                          },
+                          {
+                            "type": "word",
+                            "content": "eleng"
+                          },
+                          {
+                            "type": "word",
+                            "content": "dohin!"
+                          }
+                        ]
+                      }
+                    ],
+                    "hasInfobox": false,
+                    "audioFiles": {
+                      "ogg": "https://lod.lu/uploads/examples/OGG/76/76ba63941ca31d051275b36164472c7c.ogg",
+                      "aac": "https://lod.lu/uploads/examples/AAC/76/76ba63941ca31d051275b36164472c7c.m4a"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "audioString": "soen, gesot",
+    "audioFiles": {
+      "ogg": "https://lod.lu/uploads/OGG/soen1.ogg",
+      "aac": "https://lod.lu/uploads/AAC/soen1.m4a"
+    },
+    "allSynonyms": {
+      "otherPotentialSynonyms": {
+        "synonyms": [
+          {
+            "syn": "artikuléieren",
+            "attributes": [
+              "GEHUEW"
+            ]
+          },
+          {
+            "syn": "ausschwätzen"
+          },
+          {
+            "syn": "mengen"
+          }
+        ]
+      }
+    },
+    "videos": [
+      {
+        "meaningID": "SOEN1UNI1",
+        "meaningVideo": "441026032",
+        "meaningNumber": 1
+      },
+      {
+        "meaningID": "SOEN1UNI2",
+        "meaningVideo": "441026108",
+        "meaningNumber": 2
+      }
+    ],
+    "infoboxes": {
+      "usage": [
+        {
+          "label": "usage",
+          "type": "text",
+          "content": [
+            {
+              "tag": "infoboxText",
+              "intro": "PastSimple"
+            }
+          ],
+          "concernsExample": false
+        }
+      ],
+      "seeAlso": [
+        {
+          "label": "seeAlso",
+          "type": "text",
+          "content": [
+            {
+              "tag": "infoboxList",
+              "layout": "horizontal",
+              "items": [
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "aussoen",
+                      "idRef": "AUSSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "erëmsoen",
+                      "idRef": "EREMSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "hanneschtsoen",
+                      "idRef": "HANNESCHTSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "nosoen",
+                      "idRef": "NOSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "ofsoen",
+                      "idRef": "OFSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "opsoen",
+                      "idRef": "OPSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "usoen",
+                      "idRef": "USOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "viraussoen",
+                      "idRef": "VIRAUSSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "virsoen",
+                      "idRef": "VIRSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "virusoen",
+                      "idRef": "VIRUSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "weidersoen",
+                      "idRef": "WEIDERSOEN1"
+                    }
+                  ]
+                },
+                {
+                  "tag": "infoboxListItem",
+                  "items": [
+                    {
+                      "tag": "internalLink",
+                      "content": "zousoen",
+                      "idRef": "ZOUSOEN1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "intro": "isVerbalBaseOfVerbs",
+          "concernsExample": false
+        }
+      ],
+      "grammar": [
+        {
+          "label": "grammar",
+          "type": "text",
+          "content": [
+            {
+              "tag": "infoboxText",
+              "intro": "departAdj"
+            }
+          ],
+          "concernsExample": false
+        }
+      ]
+    },
+    "categories": [
+      {
+        "label": "Schwätzt Dir Lëtzebuergesch? – Niveau A2 (Wuertschatz)",
+        "code": "GWS A2"
+      }
+    ]
+  },
+  "entryImage": "https://lod.lu/entry/SOEN1/og_image.png",
+  "previousEntries": [
+    {
+      "lodID": "SOCIALDISTANCING1",
+      "lemma": "Social Distancing"
+    },
+    {
+      "lodID": "SOCIETEIT1",
+      "lemma": "Societéit"
+    },
+    {
+      "lodID": "SOCKEL1",
+      "lemma": "Sockel"
+    },
+    {
+      "lodID": "SOCKETT1",
+      "lemma": "Sockett"
+    },
+    {
+      "lodID": "SODOMIE1",
+      "lemma": "Sodomie"
+    }
+  ],
+  "nextEntries": [
+    {
+      "lodID": "SOFF1",
+      "lemma": "Soff"
+    },
+    {
+      "lodID": "SOFIA1",
+      "lemma": "Sofia"
+    },
+    {
+      "lodID": "SOFTWARE1",
+      "lemma": "Software"
+    },
+    {
+      "lodID": "SOFTWAREENTWECKLER2",
+      "lemma": "Software-Entwéckler"
+    },
+    {
+      "lodID": "SOFTWAREENTWECKLERIN2",
+      "lemma": "Software-Entwécklerin"
+    }
+  ]
+}

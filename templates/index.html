@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Examples</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Examples</h1>
+        <div class="list-group">
+            {% for example in examples %}
+            <div class="list-group-item">
+                <p>
+                    <i class="fa fa-book"></i>
+                    {% if example.mark is not none %}
+                    {{ example.text[:example.mark] }}
+                    <strong>{{ example.text[example.mark:example.end] }}</strong>
+                    {{ example.text[example.end:] }}
+                    {% else %}
+                    {{ example.text }}
+                    {% endif %}
+                </p>
+                {% if example.audio_file %}
+                <audio controls>
+                    <source src="{{ example.audio_file }}" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
