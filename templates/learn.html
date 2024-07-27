@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Learn{% endblock %}
+
+{% block body %}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Learn</h1>
+    <div class="row row-cols-1">
+        <div class="col">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div id="audio-container">
+                        {% if example.audio_file %}
+                        <audio id="audio" controls>
+                            <source src="{{ example.audio_file }}" type="audio/ogg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        {% endif %}
+                    </div>
+                    <div id="text-container" style="display: none;">
+                        <p class="card-text">
+                            <i class="fa fa-book"></i>
+                            {% if example.mark is not none %}
+                            {{ example.text[:example.mark] }}
+                            <strong>{{ example.text[example.mark:example.end] }}</strong>
+                            {{ example.text[example.end:] }}
+                            {% else %}
+                            {{ example.text }}
+                            {% endif %}
+                        </p>
+                    </div>
+                    <button class="btn btn-secondary" id="show-text-button" onclick="showText()">Show Text</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <button onclick="reloadPage()" class="btn btn-primary">Another Example (n)</button>
+        <a href="/" class="btn btn-primary">Back</a>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<!-- Additional JavaScript code specific to the learn.html template -->
+<script>
+    var audioElement = document.getElementById('audio');
+    var textContainer = document.getElementById('text-container');
+    var showTextButton = document.getElementById('show-text-button');
+    var isAudioPlaying = false;
+    var isTextDisplayed = false;
+
+    function playAudio() {
+        audioElement.playbackRate = 0.75;
+        audioElement.play();
+        isAudioPlaying = true;
+    }
+
+    function showText() {
+        textContainer.style.display = 'block';
+        showTextButton.style.display = 'none';
+        anotherExampleButton.style.display = 'block';
+        isTextDisplayed = true;
+    }
+
+    function reloadPage() {
+        location.reload();
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === ' ') {
+            event.preventDefault();
+            if (!isAudioPlaying) {
+                playAudio();
+            } else if (!isTextDisplayed) {
+                showText();
+            }
+        }
+        if (event.key === 'n') {
+            event.preventDefault();
+            reloadPage();
+        }
+    });
+
+</script>
+
+{% endblock %}

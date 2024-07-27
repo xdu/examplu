@@ -39,8 +39,9 @@
         {% endfor %}
     </div>
     <div class="text-center mt-4">
-        <a href="/" class="btn btn-primary">Display 5 Random Examples</a>
-        <a href="/entries" class="btn btn-primary">Display all entries</a>
+        <a href="{{ url_for('learn') }}" class="btn btn-primary">Learn Random Example</a>
+        <a href="{{ url_for('index') }}" class="btn btn-primary">Display 5 Random Examples</a>
+        <a href="{{ url_for('entries') }}" class="btn btn-primary">Display all entries</a>
     </div>
 </div>
 

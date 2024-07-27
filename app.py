@@ -33,6 +33,10 @@ def index():
 def test():
     return render_template('test.html')
 
+@app.route('/learn')
+def learn():
+    example = Example.query.order_by(func.random()).first()
+    return render_template('learn.html', example=example)
 
 @app.route('/add_example', methods=['POST'])
 def add_example():
