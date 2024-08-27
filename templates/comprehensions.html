@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Comprehensions{% endblock %}
+
+{% block body %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Comprehensions</h1>
+        <div class="row">
+            {% for comprehension in comprehensions %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ comprehension.title }}</h5>
+                            <p class="card-text">{{ comprehension.text[:30] }}...</p>
+                            <p class="card-text text-muted">Created: {{ comprehension.created_time }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

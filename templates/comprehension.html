@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Comprehension{% endblock %}
+
+{% block body %}
+    <div class="container mt-4">
+        <h1 class="mb-4">Comprehension Text</h1>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title:</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Text:</label>
+                <textarea class="form-control col-md-1" rows="10" id="text" name="text" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="url" class="form-label">URL:</label>
+                <input type="text" class="form-control" id="url" name="url" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+{% endblock %}

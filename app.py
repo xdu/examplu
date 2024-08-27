@@ -6,7 +6,7 @@ from sqlalchemy import func
 from flask_migrate import Migrate
 
 # Import the models and the extractor function
-from models import Example, Entry, db
+from models import Example, Entry, Comprehension, db
 from extractor import extract_examples
 
 app = Flask(__name__)
@@ -121,6 +121,29 @@ def delete_entry(entry_id):
         return jsonify({'message': 'Entry deleted successfully'}), 200
     else:
         return jsonify({'message': 'Entry not found'}), 404
+
+@app.route('/comprehension', methods=['GET', 'POST'])
+def comprehension():
+    if request.method == 'POST':
+        title = request.form['title']
+        text = request.form['text']
+        url = request.form['url']
+        new_comprehension = Comprehension(title=title, text=text, url=url)
+        db.session.add(new_comprehension)
+        db.session.commit()
+        return redirect(url_for('/'))
+    return render_template('comprehension.html')
+
+@app.route('/comprehensions')
+def comprehensions():
+    """
+    Renders the comprehensions.html template with all the Comprehension models saved in the database.
+
+    Returns:
+        flask.Response: The rendered HTML template.
+    """
+    comprehensions = Comprehension.query.all()
+    return render_template('comprehensions.html', comprehensions=comprehensions)
 
 if __name__ == '__main__':
     with app.app_context():
