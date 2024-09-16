@@ -131,7 +131,7 @@ def comprehension():
         new_comprehension = Comprehension(title=title, text=text, url=url)
         db.session.add(new_comprehension)
         db.session.commit()
-        return redirect(url_for('/'))
+        return redirect(url_for('index'))
     return render_template('comprehension.html')
 
 @app.route('/comprehensions')
