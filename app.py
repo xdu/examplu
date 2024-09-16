@@ -3,7 +3,7 @@ import requests
 import json
 import random
 from sqlalchemy import func
-from flask_migrate import Migrate
+from flask_migrate import Migrate, upgrade
 
 # Import the models and the extractor function
 from models import Example, Entry, Comprehension, db
@@ -144,6 +144,15 @@ def comprehensions():
     """
     comprehensions = Comprehension.query.all()
     return render_template('comprehensions.html', comprehensions=comprehensions)
+
+@app.route('/run-migrations')
+def run_migrations():
+    """Route to trigger the database migration"""
+    try:
+        upgrade()  # This will run 'flask db upgrade'
+        return "Migrations applied successfully!"
+    except Exception as e:
+        return f"Migration failed: {e}"
 
 if __name__ == '__main__':
     with app.app_context():
